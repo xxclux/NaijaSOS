@@ -1,0 +1,39 @@
+[build]
+  publish = "public"
+
+# Route /responder to /responder.html
+[[redirects]]
+  from = "/responder"
+  to = "/responder.html"
+  status = 200
+
+# Route /dispatch to /dispatch.html
+[[redirects]]
+  from = "/dispatch"
+  to = "/dispatch.html"
+  status = 200
+
+# Route /admin to /admin.html
+[[redirects]]
+  from = "/admin"
+  to = "/admin.html"
+  status = 200
+
+# Route /login to /login.html
+[[redirects]]
+  from = "/login"
+  to = "/login.html"
+  status = 200
+
+# Route /register to /register.html
+[[redirects]]
+  from = "/register"
+  to = "/register.html"
+  status = 200
+
+# Route /protocol to /protocol.html
+[[redirects]]
+  from = "/protocol"
+  to = "/protocol.html"
+  status = 200
+

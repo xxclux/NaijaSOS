@@ -1,5 +1,12 @@
 [build]
   publish = "public"
+  functions = "netlify/functions"
+
+# Route API requests to Netlify Serverless Function
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
 
 # Route /responder to /responder.html
 [[redirects]]
@@ -36,4 +43,3 @@
   from = "/protocol"
   to = "/protocol.html"
   status = 200
-

@@ -8,8 +8,8 @@
   "scripts": {
     "dev": "node --watch server/index.js",
     "start": "node server/index.js",
-    "build": "npm run build:css",
-    "build:css": "tailwindcss -i ./src/input.css -o ./public/css/app.css --minify",
+    "build": "node scripts/build.js",
+    "build:css": "node scripts/build.js",
     "watch:css": "tailwindcss -i ./src/input.css -o ./public/css/app.css --watch",
     "seed": "node server/seed.js --force",
     "reset:data": "node server/reset-data.js",

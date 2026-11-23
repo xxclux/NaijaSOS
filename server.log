@@ -1,0 +1,16 @@
+🛰️  Fleet simulator started (2500 ms tick)
+
+  ███  NaijaSOS / ResQLink
+  Multi-agency emergency response prototype
+  Citizen portal  → http://localhost:4000/
+  Command centre  → http://localhost:4000/dispatch
+  Field responder → http://localhost:4000/responder
+  Health check    → http://localhost:4000/api/health
+
+2026-10-26T13:02:57.522Z GET /api/bootstrap
+2026-10-26T13:05:36.224Z GET /api/bootstrap
+2026-10-26T13:05:37.721Z GET /api/bootstrap
+2026-10-26T13:10:27.441Z GET /api/bootstrap
+2026-10-26T13:10:30.575Z GET /api/bootstrap
+2026-10-26T13:12:24.359Z GET /api/auth/demo
+2026-10-26T13:17:07.334Z GET /api/bootstrap

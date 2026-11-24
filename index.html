@@ -1,0 +1,1 @@
+npx wrangler deploy --assets $(find . -name index.html -not -path './node_modules/*' -not -path './.git/*' -printf '%h\n' | head -1)
